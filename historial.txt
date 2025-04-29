@@ -1,0 +1,57 @@
+    1  whoami
+    2  ls -l
+    3  cd repogit/
+    4  ls -l
+    5  ssh-keygen -t ed25519
+    6  ls -l .ssh
+    7  cd ..
+    8  ls -l .ssh
+    9  cat .ssh/id_ed25519.pub
+   10  exit
+   11  ls
+   12  ls -l
+   13  ls -la
+   14  cd .ssh
+   15  ls -l
+   16  ccd ..
+   17  cd ..
+   18  mkdir clase4
+   19  ls -l
+   20  cd clase4/
+   21  cat > archivo1.txt
+   22  ls -l
+   23  cat << FIN > archivo2.txt
+   24  linea4
+   25  linea5
+   26  linea6
+   27  FIN
+   28  cat archivo2.txt
+   29  cat archivo1.txt
+   30  cat archivo1.txt > archivo3.txt
+   31  ls -l
+   32  cat archivo3.txt
+   33  cat archivo2.txt
+   34  vagrant halt
+   35  exit
+   36  cd clase4/
+   37  ls -l
+   38  cat archivo3.txt
+   39  cat archivo2.txt >> archivo3.txt
+   40  cat archivo3.txt
+   41  cat archivo2.txt  archivo1.txt > archivo4.txt
+   42  ls -l
+   43  cat archivo4.txt
+   44  grep 6 archivo4.txt
+   45  grep -v 6 archivo4.txt
+   46  cd ..
+   47  git clone git@github.com:TaiCap/vmvagrant_repo.git
+   48  ls
+   49  cd vmvagrant_repo/
+   50  ls
+   51  history > historial.txt
+   52  ls
+   53  cat > archivoPureba1.txt
+   54  ls
+   55  cat archivoPureba1.txt 
+   56  ls
+   57  history > historial.txt
